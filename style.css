@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #000; /* Fundo preto */
+    color: #f70a0a; /* Texto branco */
+}
+
+header {
+    text-align: center;
+    background: #1E1E1E; /* Cinza escuro */
+    padding: 20px 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+article {
+    background: #1E1E1E; /* Fundo cinza escuro para os artigos */
+    border: 1px solid #2196F3; /* Borda azul */
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.image-container {
+    border: 5px solid #2196F3; /* Cor da borda das imagens */
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+article img {
+    max-width: 80%; /* Ajusta a largura máxima das imagens */
+    height: auto; /* Mantém a proporção */
+    display: block; /* Centraliza a imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+.large {
+    grid-column: span 2; /* Faz o artigo principal ocupar duas colunas */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #e21616; /* Texto cinza claro */
+}
+
